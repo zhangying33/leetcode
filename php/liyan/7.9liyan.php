@@ -4,29 +4,30 @@
  * @param Integer[] $nums
  * @return Integer[][]
  */
-function threeSum($nums) {
+function threeSum($nums)
+{
     $threeArray = [];
     $count = count($nums);
-
-
     sort($nums);
-    for($i=0;$i<$count-2;++$i){
-        if($nums[$i] > 0)break;
+    for ($i = 0; $i < $count - 2; ++$i) {
+        if ($nums[$i] > 0) break;
 
-        if($i>0 && $nums[$i] === $nums[$i-1])continue;
-        $first = $i+1;
-        $last = $count-1;
+        if ($i > 0 && $nums[$i] === $nums[$i - 1]) continue;
+        $first = $i + 1;
+        $last = $count - 1;
 
-        while($first < $last){
+        while ($first < $last) {
             $tSum = $nums[$first] + $nums[$last] + $nums[$i];
-            if($tSum === 0){
-                $threeArray[] = [$nums[$i], $nums[$first] ,$nums[$last]];
-                while($first<$last && $nums[$last] == $nums[--$last]){};
-                while($first<$last && $nums[$first] == $nums[++$first]){};
-            }else
-                if($tSum > 0){
+            if ($tSum === 0) {
+                $threeArray[] = [$nums[$i], $nums[$first], $nums[$last]];
+                while ($first < $last && $nums[$last] == $nums[--$last]) {
+                };
+                while ($first < $last && $nums[$first] == $nums[++$first]) {
+                };
+            } else
+                if ($tSum > 0) {
                     $last--;
-                }else if($tSum < 0){
+                } else if ($tSum < 0) {
                     $first++;
                 }
         }
