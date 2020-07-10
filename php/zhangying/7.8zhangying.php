@@ -1,8 +1,9 @@
 <?php
-/*
-|2020.7.8| [11.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|[张颖]
-*/
+
 class SolutionOne {
+    /*
+    |2020.7.8| [11.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|[张颖]
+    */
     /**
      * @param Integer[] $height
      * @return Integer
@@ -24,12 +25,10 @@ class SolutionOne {
         return $max;
 
     }
-}
-/*
-|2020.7.8| [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)|[张颖]
-*/
-class SolutionTwo {
 
+    /*
+    |2020.7.8| [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)|[张颖]
+    */
     /**
      * @param Integer[] $nums
      * @return NULL
@@ -47,13 +46,10 @@ class SolutionTwo {
         }
         return $nums;
     }
-}
 
-/*
-|2020.7.8| [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[张颖]
-*/
-class SolutionThree {
-
+    /*
+    |2020.7.8| [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[张颖]
+    */
     /**
      * @param Integer $n
      * @return Integer
@@ -75,4 +71,4 @@ class SolutionThree {
     }
 }
 
-?>
+
