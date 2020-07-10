@@ -21,6 +21,7 @@ class Solution {
                 $m--;
             }
         }
+        return $nums1;
     }
 
     /**
