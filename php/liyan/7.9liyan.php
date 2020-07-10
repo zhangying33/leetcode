@@ -72,14 +72,10 @@ function rotate(&$nums, $k)
     if ($len < 2) {
         return $nums;
     }
-
-    $this->reverse($nums, 0, $len - 1);
-
-    $this->reverse($nums, 0, $k - 1);
-
-    $this->reverse($nums, $k, $len - 1);
+    reverse($nums, 0, $len - 1);
+    reverse($nums, 0, $k - 1);
+    reverse($nums, $k, $len - 1);
     return $nums;
-
 }
 
 function reverse(&$nums, $start, $end)
@@ -91,5 +87,4 @@ function reverse(&$nums, $start, $end)
         $start++;
         $end--;
     }
-
 }
