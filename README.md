@@ -11,6 +11,12 @@ LeetCode
 |2020.7.9| [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)|[张颖](./php/zhangying/7.9zhangying.php)|[李岩](./php/liyan/7.9liyan.php)
 |2020.7.10| [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)|[张颖](./php/zhangying/7.10zhangying.php)|[李岩](./php/liyan/7.10liyan.php)
 |2020.7.10| [66. 加一](https://leetcode-cn.com/problems/plus-one/)|[张颖](./php/zhangying/7.10zhangying.php)|[李岩](./php/liyan/7.10liyan.php)
+|2020.7.13| [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|[张颖](./php/zhangying/7.13zhangying.php)|[李岩](./php/liyan/7.13liyan.php)
+|2020.7.14| [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|[张颖](./php/zhangying/7.14zhangying.php)|[李岩](./php/liyan/7.14liyan.php)
+|2020.7.15| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[张颖](./php/zhangying/7.15zhangying.php)|[李岩](./php/liyan/7.15liyan.php)
+|2020.7.16| [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[张颖](./php/zhangying/7.16zhangying.php)|[李岩](./php/liyan/7.16liyan.php)
+|2020.7.17| [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[张颖](./php/zhangying/7.17zhangying.php)|[李岩](./php/liyan/7.17liyan.php)
+|2020.7.18| [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|[张颖](./php/zhangying/7.18zhangying.php)|[李岩](./php/liyan/7.18liyan.php)
 
 
 
