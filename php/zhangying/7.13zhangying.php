@@ -19,7 +19,7 @@ class Solution {
         $curr = $head; //申请头节点
         while ($curr != null) { //链表尾部，为null时链表结束
             $tmp = $curr->next; //当前节点的下一节点 //设置下一节点
-            $curr->next = $prev; // 重新赋值下一节点为null
+            $curr->next = $prev; // 设置当前节点的前一个节点
             $prev = $curr; //链表
             $curr = $tmp; //设置下一次迭代的当前节点
         }
