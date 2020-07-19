@@ -17,6 +17,9 @@ LeetCode
 |2020.7.16| [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[张颖](./php/zhangying/7.16zhangying.php)|[李岩](./php/liyan/7.16liyan.php)
 |2020.7.17| [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[张颖](./php/zhangying/7.17zhangying.php)|[李岩](./php/liyan/7.17liyan.php)
 |2020.7.18| [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|[张颖](./php/zhangying/7.18zhangying.php)|[李岩](./php/liyan/7.18liyan.php)
+|2020.7.20| [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|[张颖](./php/zhangying/7.20zhangying.php)|[李岩](./php/liyan/7.20liyan.php)
+|2020.7.21| [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)|[张颖](./php/zhangying/7.21zhangying.php)|[李岩](./php/liyan/7.21liyan.php)
+|2020.7.22| [237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|[张颖](./php/zhangying/7.22zhangying.php)|[李岩](./php/liyan/7.22liyan.php)
 
 
 
