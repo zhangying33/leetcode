@@ -8,7 +8,6 @@
  * }
  */
 class Solution {
-
     /**
      * @param ListNode $head
      * @param Integer $m
